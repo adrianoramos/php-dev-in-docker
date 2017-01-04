@@ -33,3 +33,5 @@ RUN usermod -u 1000 www-data
 
 WORKDIR /var/www/html
 
+COPY ./php.ini /usr/local/etc/php.ini
+
