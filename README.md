@@ -1,8 +1,9 @@
 # PHP Dev in Docker
+
 PHP development environment in Docker: PHP-FPM, Nginx, MySQL and phpMyAdmin.
 
 ## What's included
-***
+
 * [PHP 5.6](http://php.net/)
 * [PHP-FPM](https://php-fpm.org/)
 * [Nginx](https://www.nginx.com/)
@@ -10,13 +11,13 @@ PHP development environment in Docker: PHP-FPM, Nginx, MySQL and phpMyAdmin.
 * [phpMyAdmin](https://www.phpmyadmin.net/)
 
 ## Requirements
-***
+
 * [Docker Engine](https://docs.docker.com/engine/installation/)
 * [Docker Compose](https://docs.docker.com/compose/install/)
 * [Docker Machine](https://docs.docker.com/machine/)
 
 ## Clone, Build and Run
-***
+
 ```sh
 git clone https://github.com/adrianoramos/php-dev-in-docker.git
 cd php-dev-in-docker/
@@ -29,13 +30,13 @@ Check out `localhost` or `127.0.0.1` in your browser or access your configured I
 To access **phpMyAdmin** use the `8080` port, eg: `localhost:8080`. Log in using **root** as username and password.
 
 ## Stop
-***
+
 ```sh
 docker-compose stop
 ```
 
 ## Kill
-***
+
 ```sh
 docker-compose kill
 ```
